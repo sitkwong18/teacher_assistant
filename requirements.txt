@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+langchain
+langchain-anthropic
+python-dotenv
+pydantic
+streamlit
+anthropic
