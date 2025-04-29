@@ -104,6 +104,8 @@ def main_app():
         if "quotes" not in st.session_state:
             st.session_state.quotes = []  # list of dicts with keys: name, quote, image_base64
 
+        st.write("")
+
         # After generating the quote:
         if st.button("Generate Quote"):
             if not child_focus_name:
